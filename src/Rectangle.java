@@ -76,5 +76,11 @@ public class Rectangle
         System.out.println("This rectangle's length is " + length + " and width is " + width + ".");
         System.out.println("It has an area of " + calculateArea());
     }
+
+    public int perimeter()
+    {
+        int perimeter = (width * 2) + (length * 2);
+        return perimeter;
+    }
 }
 
